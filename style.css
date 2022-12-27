@@ -1,0 +1,133 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 150px 150px ;
+    
+   
+   
+}
+
+img{
+    padding: 15% 15% 2%;
+}
+
+
+.card1{
+    width: 33.33%;
+    height: 72vh;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+    justify-content: center;
+}
+
+
+h1{
+    font-family: big shoulders display;
+    color: hsl(0, 0%, 95%);
+    padding: 2% 15% 3%;
+    text-align: left;
+}
+
+p{
+    font-family: lexend deca;
+    font-size: 21px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0% 15% 7%;
+    line-height: 2rem;
+   
+}
+
+.card2{
+    width: 33.33%;
+    height: 72vh;
+    background-color: hsl(184, 100%, 22%);
+    
+
+}
+.card3{
+    width: 33.33%;
+    height: 72vh;
+    background-color:  hsl(179, 100%, 13%);
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 4%;
+   
+}
+
+
+
+
+
+.card1 button{
+    border-radius: 2rem;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 5em;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+   
+}
+
+.card2 button{
+    border-radius: 2rem;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 5em;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+   
+}
+
+.card3 button{
+    border-radius: 2rem;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 5em;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+   
+}
+button:hover{
+    
+    border: 1px solid hsla(0, 0%, 100%, 0.75);
+    background-color: transparent;
+    
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+ 
+@media screen and (max-width: 1000px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+                  
+       
+    }
+    .card1, .card2, .card3{
+        width: 100%;
+    }
+
+    .card1{
+        border-top-right-radius: 4%;
+        border-top-left-radius: 4%;
+        border-bottom-left-radius: 0%;
+    }
+
+    .card3{
+        border-bottom-right-radius: 4%;
+        border-bottom-left-radius: 4%;
+        border-top-right-radius: 0%;
+
+    }
+  }
