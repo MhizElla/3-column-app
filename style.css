@@ -16,7 +16,7 @@ body{
 }
 
 img{
-    padding: 5% 5% 2%;
+    padding: 5% 15% 2%;
 }
 
 
@@ -33,16 +33,16 @@ img{
 h1{
     font-family: big shoulders display;
     color: hsl(0, 0%, 95%);
-    padding: 2% 15% 3%;
+    padding: 2% 15% 2%;
     text-align: left;
 }
 
 p{
     font-family: lexend deca;
-    font-size: 21px;
+    font-size: 10px;
     color: hsla(0, 0%, 100%, 0.75);
-    padding: 0% 15% 7%;
-    line-height: 2rem;
+    padding: 0% 15% 5%;
+    line-height: 1rem;
    
 }
 
