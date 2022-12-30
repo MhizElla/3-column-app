@@ -39,7 +39,7 @@ h1{
 
 p{
     font-family: lexend deca;
-    font-size: 10px;
+    font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
     padding: 0% 15% 5%;
     line-height: 2rem;
@@ -69,7 +69,7 @@ p{
 .card1 button{
     border-radius: 2rem;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 15px;
     cursor: pointer;
     margin-left: 5em;
     background-color: hsl(0, 0%, 95%);
