@@ -80,7 +80,7 @@ p{
 .card2 button{
     border-radius: 2rem;
     border: none;
-    padding: 15px 15px;
+    padding: 10px 15px;
     cursor: pointer;
     margin-left: 5em;
     background-color: hsl(0, 0%, 95%);
@@ -117,6 +117,7 @@ button:hover{
     }
     .card1, .card2, .card3{
         width: 400%;
+        text-align: center;
     }
 
     p{
