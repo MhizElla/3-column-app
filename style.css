@@ -116,7 +116,8 @@ button:hover{
        
     }
     .card1, .card2, .card3{
-        width: 700%;
+        width: 500%;
+        height: 500%;
         
     }
 
