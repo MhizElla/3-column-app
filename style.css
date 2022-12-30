@@ -9,7 +9,7 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    
+    padding: 150px 150px ;
     
    
    
@@ -111,13 +111,13 @@ button:hover{
     .container{
         display: flex;
         flex-direction: column;
-        padding-left: 30px;
+        padding: 150px 150px ;
         
                   
        
     }
     .card1, .card2, .card3{
-        width: 650%;
+        width: 500%;
        
         
     }
