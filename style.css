@@ -9,7 +9,7 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    padding: 150px 150px ;
+    
     
    
    
@@ -112,7 +112,6 @@ button:hover{
         display: flex;
         flex-direction: column;
         padding-left: 30px;
-        padding-right: 30px;
         
                   
        
