@@ -16,7 +16,7 @@ body{
 }
 
 img{
-    padding: 5% 15% 2%;
+    padding: 11% 15% 2%;
 }
 
 
@@ -111,7 +111,7 @@ button:hover{
     .container{
         display: flex;
         flex-direction: column;
-        padding: 150px 150px ;
+        
                   
        
     }
@@ -120,7 +120,7 @@ button:hover{
     }
 
     p{
-        font-size: 12px; 
+        font-size: 15px; 
     }
 
     .card1{
